@@ -1,5 +1,5 @@
 {
-  "name": "flag-icon-css",
+  "name": "malaysia-state-flag-icon-css",
   "version": "3.1.0",
   "author": "Panayiotis Lipiridis <lipiridis@gmail.com>",
   "licenses": [
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/lipis/flag-icon-css"
+    "url": "http://github.com/jwarby/malaysia-state-flag-icon-css"
   },
   "devDependencies": {
     "grunt": "1.0.2",

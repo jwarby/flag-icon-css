@@ -1,31 +1,25 @@
-# flag-icon-css
+# malaysia-state-flag-icon-css
+> Forked from [`lipis/flag-icon-css`](https://github.com/lipis/flag-icon-css)
 
-[![npm version](https://badge.fury.io/js/flag-icon-css.svg)](https://badge.fury.io/js/flag-icon-css)
-
-A collection of all country flags in SVG — plus the CSS for easier integration.
+A collection of Malaysian state flags in SVG — plus the CSS for easier integration.
 See the [demo](http://lipis.github.io/flag-icon-css/).
 
 Install
 -------
-You can either [download](https://github.com/lipis/flag-icon-css/archive/master.zip)
-the whole project as is or install it via Bower or NPM:
 
 ```bash
-$ bower install flag-icon-css
-$ npm install flag-icon-css
+yarn add github:jwarby/malaysia-state-flag-icon-css
 ```
 
 ## Usage
 
-For using the flags inline with text add the classes `.flag-icon` and
-`.flag-icon-xx` (where `xx` is the
-[ISO 3166-1-alpha-2 code](https://www.iso.org/obp/ui/#search/code/)
-of a country) to an empty `<span>`. If you want to have a squared version flag
-then add the class `flag-icon-squared` as well. Example:
+For using the flags inline with text add the classes `.malaysia-state-flag-icon` and
+`.malaysia-state-flag-icon-xxx` (where `xxx` is the
+[abbreviation](https://en.wikipedia.org/wiki/States_and_federal_territories_of_Malaysia)
+of a state's name) to an empty `<span>`. Example:
 
 ```html
-<span class="flag-icon flag-icon-gr"></span>
-<span class="flag-icon flag-icon-gr flag-icon-squared"></span>
+<span class="malaysia-state-flag-icon malaysia-state-flag-icon-mlk"></span>
 ```
 
 You could also apply this to any element, but in that case you'll have to use the
@@ -39,8 +33,7 @@ background-repeat: no-repeat;
 ```
 
 Which means that the flag is just going to appear in the middle of an element, so
-you will have to set manually the correct size of 4 by 3 ratio or if it's squared
-add also the `flag-icon-squared` class.
+you will have to set manually the correct size of 1 by 2 ratio.
 
 ## Development
 
@@ -65,12 +58,21 @@ To serve it on `localhost:8000`
 $ grunt connect
 ```
 
-To have only specific countries in the css file, remove the ones that you don't
-need from the
-[`flag-icon-list.less`](https://github.com/lipis/flag-icon-css/blob/master/less/flag-icon-list.less)
-file and build it again.
-
 ## Credits
 
-This project wouldn't exist without the awesome and now deleted collection of
-SVG flags by [koppi](https://github.com/koppi).
+- Thanks to [lipis](https://github.com/lipis) for the original [`flag-icon-css`](https://github.com/lipis/flag-icon-css) from which
+  this project is derived
+- Thanks to the authors of the SVG state flags:
+  - Johor: <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=596053">Link</a>
+  - Kedah: By <a href="https://en.wikipedia.org/wiki/User:Bukhrin" class="extiw" title="wikipedia:User:Bukhrin">Bukhrin</a> at <a href="https://en.wikipedia.org/wiki/" class="extiw" title="wikipedia:">English Wikipedia</a> - Transferred from <span class="plainlinks"><a class="external text" href="//en.wikipedia.org">en.wikipedia</a></span> to Commons., Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=3827325">Link</a>
+  - Kelantan: By <a href="//commons.wikimedia.org/wiki/User:Mysid" title="User:Mysid">Mysid</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=1069049">Link</a>
+  - Melaka: By User <a href="https://en.wikipedia.org/wiki/User:Mysid" class="extiw" title="en:User:Mysid">Mysid</a> on <a class="external text" href="http://en.wikipedia.org">en.wikipedia</a> - <a href="https://en.wikipedia.org/wiki/Flag_of_Malacca.svg" class="extiw" title="w:Flag of Malacca.svg">w:Flag of Malacca.svg</a>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=1037511">Link</a>
+  - Negeri Sembilan: By <a href="//commons.wikimedia.org/wiki/User:Himasaram" title="User:Himasaram">Himasaram</a> - <a href="//commons.wikimedia.org/wiki/File:Inkscape_Logo.svg" title="File:Inkscape Logo.svg"></a>This <a href="https://en.wikipedia.org/wiki/Vector_images" class="extiw" title="w:Vector images">vector image</a> was created with <a href="//commons.wikimedia.org/wiki/Help:Inkscape" title="Help:Inkscape">Inkscape</a>.Specification at <a rel="nofollow" class="external text" href="http://www.crwflags.com/fotw/flags/my-neger.html">FOTW</a>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=1066812">Link</a>
+  - Pahang: By No machine-readable author provided. <a href="//commons.wikimedia.org/wiki/User:Urmas" title="User:Urmas">Urmas</a> assumed (based on copyright claims). - No machine-readable source provided. Own work assumed (based on copyright claims)., Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=565445">Link</a>
+  - Penang: By Original designer of the flag is unknown. - Own made. The image of the penang tree are retrieved from <a rel="nofollow" class="external free" href="http://mymalaysiainfo.com/generalinfo/malaysian-flag/penang-flag/pulaupinang.jpg">http://mymalaysiainfo.com/generalinfo/malaysian-flag/penang-flag/pulaupinang.jpg</a> The Older vision is E-mailed to uploader by author of xrmap., Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=651484">Link</a>
+  - Perak: By No machine-readable author provided. <a href="//commons.wikimedia.org/wiki/User:Urmas" title="User:Urmas">Urmas</a> assumed (based on copyright claims). - No machine-readable source provided. Own work assumed (based on copyright claims)., Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=565424">Link</a>
+  - Perlis: By No machine-readable author provided. <a href="//commons.wikimedia.org/wiki/User:Urmas" title="User:Urmas">Urmas</a> assumed (based on copyright claims). - No machine-readable source provided. Own work assumed (based on copyright claims)., Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=565447">Link</a>
+  - Sabah: By User <a href="https://en.wikipedia.org/wiki/User:Mysid" class="extiw" title="en:User:Mysid">Mysid</a> on <a class="external text" href="http://en.wikipedia.org">en.wikipedia</a> - Originally from <a class="external text" href="http://en.wikipedia.org">en.wikipedia</a>; description page is (was) <a href="https://en.wikipedia.org/wiki/Flag_of_Sabah.svg" class="extiw" title="w:Flag of Sabah.svg">here</a>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=1037512">Link</a>
+  - Sarawak: By <a href="https://en.wikipedia.org/wiki/User:Matthew_A._Lockhart" class="extiw" title="en:User:Matthew A. Lockhart">Matthew A. Lockhart</a> at the <a href="https://en.wikipedia.org/wiki/" class="extiw" title="w:">English language Wikipedia</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=1069069">Link</a>
+  - Selangor: By <a href="https://en.wikipedia.org/wiki/User:Mysid" class="extiw" title="en:User:Mysid">Mysid</a> at the <a href="https://en.wikipedia.org/wiki/" class="extiw" title="w:">English language Wikipedia</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=1069135">Link</a>)
+  - Terrenganu: By <a href="//commons.wikimedia.org/wiki/User:Mysid" title="User:Mysid">Mysid</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=1069289">Link</a>
