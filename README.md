@@ -49,7 +49,7 @@ you will have to set manually the correct size of 1 by 2 ratio.
 - `sbh`: Sabah
 - `swk`: Sarawak
 - `sgr`: Selangor
-- `trg`: Terrenganu
+- `trg`: Terengganu
 - `kul`: Kuala Lumpur
 - `lbn`: Labuan
 - `pjy`: Putrajaya
@@ -95,7 +95,7 @@ $ grunt connect
   - Sabah: By User <a href="https://en.wikipedia.org/wiki/User:Mysid" class="extiw" title="en:User:Mysid">Mysid</a> on <a class="external text" href="http://en.wikipedia.org">en.wikipedia</a> - Originally from <a class="external text" href="http://en.wikipedia.org">en.wikipedia</a>; description page is (was) <a href="https://en.wikipedia.org/wiki/Flag_of_Sabah.svg" class="extiw" title="w:Flag of Sabah.svg">here</a>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=1037512">Link</a>
   - Sarawak: By <a href="https://en.wikipedia.org/wiki/User:Matthew_A._Lockhart" class="extiw" title="en:User:Matthew A. Lockhart">Matthew A. Lockhart</a> at the <a href="https://en.wikipedia.org/wiki/" class="extiw" title="w:">English language Wikipedia</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=1069069">Link</a>
   - Selangor: By <a href="https://en.wikipedia.org/wiki/User:Mysid" class="extiw" title="en:User:Mysid">Mysid</a> at the <a href="https://en.wikipedia.org/wiki/" class="extiw" title="w:">English language Wikipedia</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=1069135">Link</a>)
-  - Terrenganu: By <a href="//commons.wikimedia.org/wiki/User:Mysid" title="User:Mysid">Mysid</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=1069289">Link</a>
+  - Terengganu: By <a href="//commons.wikimedia.org/wiki/User:Mysid" title="User:Mysid">Mysid</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=1069289">Link</a>
   - Kuala Lumpur Federal Territory: By No machine-readable author provided. Zscout370 assumed (based on copyright claims). - No machine-readable source provided. Own work assumed (based on copyright claims)., Public Domain, https://commons.wikimedia.org/w/index.php?curid=508742
   - Labuan Federal Territory: By Stefan Fussan - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=2051226
   - Putrajaya Federal Territory: By Bearsmalaysia, Ranking Update, SiBr4 and NikNaksThis vector image includes elements that have been taken or adapted from this:  Coat of arms of Malaysia.svg.This vector image includes elements that have been taken or adapted from this:  Coat of arms of Penang.svg.This vector image includes elements that have been taken or adapted from this:  Coat of arms of Sabah.svg.This vector image includes elements that have been taken or adapted from this:  Coat of arms of Sarawak.svg. - Unknown, coat of arms first version adopted 1952, modified 1963, 1965, 1982 and 1988, Public Domain, https://commons.wikimedia.org/w/index.php?curid=25780223
