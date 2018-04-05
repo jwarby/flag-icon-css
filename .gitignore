@@ -4,3 +4,4 @@ main
 node_modules
 temp
 update
+yarn-error.log
